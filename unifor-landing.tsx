@@ -6,9 +6,10 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white sticky top-0 z-50">
+      <header className="bg-white border-b sticky top-0 z-50">
+      <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center">
         <Link href="/" className="flex items-center justify-center">
           <div className="bg-red-600 text-white px-3 py-1 rounded font-bold text-lg">UNIFOR</div>
         </Link>
@@ -27,12 +28,13 @@ export default function Component() {
           </Link>
         </nav>
         <Button className="ml-4 bg-red-600 hover:bg-red-700">Join Today</Button>
+        </div>
       </header>
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-slate-50 to-slate-100">
-          <div className="container px-4 md:px-6">
+        <section className="w-full bg-gradient-to-br from-slate-50 to-slate-100 py-20">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
@@ -87,8 +89,8 @@ export default function Component() {
         </section>
 
         {/* Problem Section */}
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+        <section id="about" className="w-full py-24">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The Challenge We Face</h2>
@@ -151,7 +153,7 @@ export default function Component() {
 
         {/* Solutions Section */}
         <section id="solutions" className="w-full py-12 md:py-24 lg:py-32 bg-slate-50">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Solutions</h2>
@@ -222,7 +224,7 @@ export default function Component() {
 
         {/* Impact Section */}
         <section id="impact" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Collective Impact</h2>
@@ -268,7 +270,7 @@ export default function Component() {
 
         {/* CTA Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-red-600">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
