@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Users, Wrench, Zap, Recycle, Briefcase, TrendingUp } from "lucide-react"
@@ -11,23 +12,29 @@ export default function Component() {
       <header className="bg-white border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center">
         <Link href="/" className="flex items-center justify-center">
-          <div className="bg-red-600 text-white px-3 py-1 rounded font-bold text-lg">UNIFOR</div>
+          <Image
+            src="/Unifor-core-RGB.png"
+            width={100}
+            height={100}
+            alt="Drop It Logo"
+            className="rounded-md"
+          />
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link href="#about" className="text-sm font-medium hover:text-red-600 transition-colors">
+          <Link href="#about" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             About
           </Link>
-          <Link href="#solutions" className="text-sm font-medium hover:text-red-600 transition-colors">
+          <Link href="#solutions" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             Solutions
           </Link>
-          <Link href="#impact" className="text-sm font-medium hover:text-red-600 transition-colors">
+          <Link href="#impact" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             Impact
           </Link>
-          <Link href="#contact" className="text-sm font-medium hover:text-red-600 transition-colors">
+          <Link href="#contact" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             Contact
           </Link>
         </nav>
-        <Button className="ml-4 bg-red-600 hover:bg-red-700">Join Today</Button>
+        <Button className="ml-4 bg-[#c31a1a] hover:bg-red-500">Join Today</Button>
         </div>
       </header>
 
@@ -51,7 +58,7 @@ export default function Component() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-red-600 hover:bg-red-700">
+                  <Button size="lg" className="bg-[#c31a1a] hover:bg-red-500">
                     Learn About Our Programs
                   </Button>
                   <Button variant="outline" size="lg">
@@ -61,23 +68,23 @@ export default function Component() {
               </div>
               <div className="flex items-center justify-center">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-orange-500 rounded-lg blur opacity-75"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#c31a1a] to-orange-500 rounded-lg blur opacity-75"></div>
                   <div className="relative bg-white p-8 rounded-lg shadow-xl">
                     <div className="grid grid-cols-2 gap-4 text-center">
                       <div>
-                        <div className="text-2xl font-bold text-red-600">85%</div>
+                        <div className="text-2xl font-bold text-[#c31a1a]">85%</div>
                         <div className="text-sm text-slate-600">Skills Gap Impact</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-red-600">50K+</div>
+                        <div className="text-2xl font-bold text-[#c31a1a]">50K+</div>
                         <div className="text-sm text-slate-600">Technicians Affected</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-red-600">2030</div>
+                        <div className="text-2xl font-bold text-[#c31a1a]">2030</div>
                         <div className="text-sm text-slate-600">Target Year</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-red-600">100%</div>
+                        <div className="text-2xl font-bold text-[#c31a1a]">100%</div>
                         <div className="text-sm text-slate-600">EV Ready Workforce</div>
                       </div>
                     </div>
@@ -105,7 +112,7 @@ export default function Component() {
               <div className="flex flex-col justify-center space-y-4">
                 <ul className="grid gap-6">
                   <li className="flex items-start gap-4">
-                    <Wrench className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                    <Wrench className="h-6 w-6 text-[#c31a1a] mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="text-xl font-bold">Traditional Skills vs. EV Technology</h3>
                       <p className="text-slate-600">
@@ -115,7 +122,7 @@ export default function Component() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <Zap className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                    <Zap className="h-6 w-6 text-[#c31a1a] mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="text-xl font-bold">Equipment and Safety Gaps</h3>
                       <p className="text-slate-600">
@@ -125,7 +132,7 @@ export default function Component() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <TrendingUp className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                    <TrendingUp className="h-6 w-6 text-[#c31a1a] mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="text-xl font-bold">Growing Market Demand</h3>
                       <p className="text-slate-600">
@@ -139,7 +146,7 @@ export default function Component() {
               <div className="flex items-center justify-center">
                 <div className="bg-slate-100 p-8 rounded-lg">
                   <div className="text-center space-y-4">
-                    <div className="text-4xl font-bold text-red-600">The Skills Gap Crisis</div>
+                    <div className="text-4xl font-bold text-[#c31a1a]">The Skills Gap Crisis</div>
                     <p className="text-slate-600">
                       Without targeted intervention, thousands of skilled automotive workers risk unemployment while the
                       EV industry struggles to find qualified technicians.
@@ -166,7 +173,7 @@ export default function Component() {
             <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2 xl:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <Users className="h-8 w-8 text-red-600" />
+                  <Users className="h-8 w-8 text-[#c31a1a]" />
                   <CardTitle>Employee Reskilling Programs</CardTitle>
                   <CardDescription>
                     Comprehensive training initiatives funded by government partnerships to upskill existing
@@ -185,7 +192,7 @@ export default function Component() {
 
               <Card>
                 <CardHeader>
-                  <Briefcase className="h-8 w-8 text-red-600" />
+                  <Briefcase className="h-8 w-8 text-[#c31a1a]" />
                   <CardTitle>Union Job Board</CardTitle>
                   <CardDescription>
                     Strategic workforce redistribution platform connecting skilled workers with emerging opportunities.
@@ -203,7 +210,7 @@ export default function Component() {
 
               <Card>
                 <CardHeader>
-                  <Recycle className="h-8 w-8 text-red-600" />
+                  <Recycle className="h-8 w-8 text-[#c31a1a]" />
                   <CardTitle>Demanufacturing Initiative</CardTitle>
                   <CardDescription>
                     Creating new economic activities by recycling traditional vehicle parts for EV applications.
@@ -236,7 +243,7 @@ export default function Component() {
             <div className="mx-auto grid max-w-5xl gap-8 py-12 lg:grid-cols-3">
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="bg-red-100 p-4 rounded-full">
-                  <TrendingUp className="h-8 w-8 text-red-600" />
+                  <TrendingUp className="h-8 w-8 text-[#c31a1a]" />
                 </div>
                 <h3 className="text-xl font-bold">Manufacturers Benefit</h3>
                 <p className="text-slate-600">
@@ -246,7 +253,7 @@ export default function Component() {
               </div>
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="bg-red-100 p-4 rounded-full">
-                  <Users className="h-8 w-8 text-red-600" />
+                  <Users className="h-8 w-8 text-[#c31a1a]" />
                 </div>
                 <h3 className="text-xl font-bold">Workers Supported</h3>
                 <p className="text-slate-600">
@@ -256,7 +263,7 @@ export default function Component() {
               </div>
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="bg-red-100 p-4 rounded-full">
-                  <Badge className="h-8 w-8 bg-red-600" />
+                  <Badge className="h-8 w-8 bg-[#c31a1a]" />
                 </div>
                 <h3 className="text-xl font-bold">Government Recognition</h3>
                 <p className="text-slate-600">
@@ -269,7 +276,7 @@ export default function Component() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-red-600">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#c31a1a]">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -282,13 +289,13 @@ export default function Component() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button size="lg" variant="secondary" className="bg-white text-red-600 hover:bg-slate-100">
+                <Button size="lg" variant="secondary" className="bg-red-500 text-white hover:bg-red-300">
                   Become a Member
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-red-600"
+                  className="border-white text-[#c31a1a] hover:bg-slate-100 hover:text-[#c31a1a]"
                 >
                   Learn More
                 </Button>
@@ -301,11 +308,17 @@ export default function Component() {
       {/* Footer */}
       <footer
         id="contact"
-        className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-slate-50"
+        className="flex items-center justify-between h-[70px] px-4 md:px-6 border-t bg-slate-50"
       >
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full items-center">
           <div className="flex items-center">
-            <div className="bg-red-600 text-white px-3 py-1 rounded font-bold text-lg">UNIFOR</div>
+            <Image
+              src="/Unifor-core-RGB.png"
+              width={70}
+              height={70}
+              alt="Drop It Logo"
+              className="rounded-md"
+            />
           </div>
           <nav className="flex gap-4 sm:gap-6">
             <Link href="#" className="text-xs hover:underline underline-offset-4 text-slate-600">
@@ -322,27 +335,27 @@ export default function Component() {
             </Link>
           </nav>
           <div className="sm:ml-auto flex gap-4">
-            <Link href="#" className="text-slate-600 hover:text-red-600">
+            <Link href="#" className="text-slate-600 hover:text-[#c31a1a]">
               <span className="sr-only">Facebook</span>
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
               </svg>
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-red-600">
+            <Link href="#" className="text-slate-600 hover:text-[#c31a1a]">
               <span className="sr-only">Twitter</span>
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
               </svg>
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-red-600">
+            <Link href="#" className="text-slate-600 hover:text-[#c31a1a]">
               <span className="sr-only">LinkedIn</span>
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
               </svg>
             </Link>
+            <p className="text-xs text-slate-600 mt-4 sm:mt-0">© {new Date().getFullYear()} Unifor. All rights reserved.</p>
           </div>
         </div>
-        <p className="text-xs text-slate-600 mt-4 sm:mt-0">© {new Date().getFullYear()} Unifor. All rights reserved.</p>
       </footer>
     </div>
   )
