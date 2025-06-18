@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Users, Wrench, Zap, Recycle, Briefcase, TrendingUp } from "lucide-react"
@@ -12,11 +11,11 @@ export default function Component() {
       <header className="bg-white border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center">
         <Link href="/" className="flex items-center justify-center">
-          <Image
-            src="/Unifor-core-RGB.png"
+          <img
+            src="./Unifor-core-RGB.png"
             width={100}
             height={100}
-            alt="Drop It Logo"
+            alt="Unifor Logo"
             className="rounded-md"
           />
         </Link>
@@ -312,11 +311,11 @@ export default function Component() {
       >
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full items-center">
           <div className="flex items-center">
-            <Image
-              src="/Unifor-core-RGB.png"
+            <img
+              src="./Unifor-core-RGB.png"
               width={70}
               height={70}
-              alt="Drop It Logo"
+              alt="Unifor Logo"
               className="rounded-md"
             />
           </div>
