@@ -82,7 +82,7 @@ export default function VotePage() {
                       <h3 className="text-xl font-bold text-center">Scan to Vote</h3>
                       <div className="bg-white p-4 rounded-lg border-2 border-slate-200">
                         <img
-                          src="/vote.png"
+                          src="./vote.png"
                           alt="QR Code for Union Voting"
                           width="200"
                           height="200"
