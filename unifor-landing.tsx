@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Users, Wrench, Recycle, Briefcase, TrendingUp, ClipboardList } from "lucide-react"
 import Link from "next/link"
@@ -37,6 +37,9 @@ export default function Component() {
           </Link>
           <Link href="#" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             Job Board
+          </Link>
+          <Link href="/vote" className="text-sm font-medium hover:text-red-600 transition-colors">
+            Vote
           </Link>
         </nav>
         <Link href="https://www.unifor.org/join-us" passHref>
