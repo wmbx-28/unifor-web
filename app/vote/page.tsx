@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Vote, QrCode, Users, CheckCircle } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 
 export default function VotePage() {
   return (
@@ -82,11 +81,11 @@ export default function VotePage() {
                       <QrCode className="h-8 w-8 text-[#c31a1a]" />
                       <h3 className="text-xl font-bold text-center">Scan to Vote</h3>
                       <div className="bg-white p-4 rounded-lg border-2 border-slate-200">
-                        <Image
-                          src="/pngimg.com - qr_code_PNG33.png"
+                        <img
+                          src="/vote.png"
                           alt="QR Code for Union Voting"
-                          width={200}
-                          height={200}
+                          width="200"
+                          height="200"
                           className="rounded"
                         />
                       </div>
