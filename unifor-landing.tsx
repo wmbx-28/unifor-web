@@ -32,6 +32,12 @@ export default function Component() {
           <Link href="#contact" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
             Contact
           </Link>
+          <Link href="#" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
+            Training
+          </Link>
+          <Link href="#" className="text-sm font-medium hover:text-[#c31a1a] transition-colors">
+            Job Board
+          </Link>
         </nav>
         <Link href="https://www.unifor.org/join-us" passHref>
           <Button className="ml-4 bg-[#c31a1a] hover:bg-red-500">Join Today</Button>
