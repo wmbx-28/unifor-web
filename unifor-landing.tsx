@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Users, Wrench, Zap, Recycle, Briefcase, TrendingUp } from "lucide-react"
+import { Users, Wrench, Recycle, Briefcase, TrendingUp, ClipboardList } from "lucide-react"
 import Link from "next/link"
 
 export default function Component() {
@@ -125,13 +125,10 @@ export default function Component() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <Zap className="h-6 w-6 text-[#c31a1a] mt-1 flex-shrink-0" />
+                    <ClipboardList className="h-6 w-6 text-[#c31a1a] mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="text-xl font-bold">Equipment and Safety Gaps</h3>
-                      <p className="text-slate-600">
-                        Service shops lack specialized equipment like insulated tooling, high-voltage safety gear, and
-                        diagnostic software for battery-management systems.
-                      </p>
+                      <h3 className="text-xl font-bold">Inadequate Retraining Infrastructure</h3>
+                      <p className="text-slate-600">{"There’s no cohesive labor infrastructure for retraining and certifying auto workers in EV technologies, leaving technicians vulnerable as ICE roles phase out."}</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
