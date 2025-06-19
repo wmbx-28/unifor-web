@@ -48,7 +48,7 @@ export default function Component() {
                     Automotive Industry Transformation
                   </Badge>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Bridging the EV Skills Gap
+                    EV Transition Policy
                   </h1>
                   <p className="max-w-[600px] text-slate-600 md:text-xl">
                     As electric vehicles reshape the automotive industry, Unifor is leading the charge to retrain
@@ -162,7 +162,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Solutions</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Policy Proposal</h2>
                 <p className="max-w-[900px] text-slate-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Unifor is implementing comprehensive programs to bridge the skills gap and create new opportunities in
                   the evolving automotive landscape.
@@ -173,18 +173,26 @@ export default function Component() {
               <Card>
                 <CardHeader>
                   <Users className="h-8 w-8 text-[#c31a1a]" />
-                  <CardTitle>Employee Reskilling Programs</CardTitle>
-                  <CardDescription>
-                    Comprehensive training initiatives funded by government partnerships to upskill existing
-                    technicians.
-                  </CardDescription>
+                  <CardTitle>National Reskilling and Certification Mandate</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="text-sm text-slate-600 space-y-2">
-                    <li>• High-voltage safety certification</li>
-                    <li>• Battery management system training</li>
-                    <li>• EV diagnostic software proficiency</li>
-                    <li>• Hands-on workshop experience</li>
+                    <li>•  Unifor is hereby mandated to expand its existing training platform to include technical
+education in electric vehicle (EV) systems, comprising instruction in high-voltage battery
+handling, electric motor diagnostics, and workplace safety procedures.</li>
+                    <li>• Training programs under this mandate shall be offered at no cost to participants and
+delivered through accredited colleges, certified workplace partnerships, and online platforms,
+with timetables structured to accommodate individuals employed on a full-time basis.</li>
+                    <li>• All training materials and sessions shall be made accessible in multiple languages and
+                    formats that reflect the linguistic and educational diversity of the workforce.</li>
+                    <li>• Union members who possess demonstrable expertise in EV technologies shall be eligible
+                    for recruitment and certification as instructors within the Unifor training framework.</li>
+                    <li>• The Government of Canada shall provide income-replacement funding and bursaries to
+participating workers, with the objective of offsetting the financial impact of reduced work hours
+during training participation.</li>
+                    <li>• Credentials awarded through the program shall receive joint recognition from Unifor, the
+federal government, and participating automotive manufacturers, thereby supporting national
+labor mobility and skills portability.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -192,17 +200,26 @@ export default function Component() {
               <Card>
                 <CardHeader>
                   <Briefcase className="h-8 w-8 text-[#c31a1a]" />
-                  <CardTitle>Union Job Board</CardTitle>
-                  <CardDescription>
-                    Strategic workforce redistribution platform connecting skilled workers with emerging opportunities.
-                  </CardDescription>
+                  <CardTitle>Redevelopment of Economic Activity Zones and Industrial Assets</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="text-sm text-slate-600 space-y-2">
-                    <li>• Real-time job matching</li>
-                    <li>• Skills assessment tools</li>
-                    <li>• Career transition support</li>
-                    <li>• Industry partnership network</li>
+                    <li>• The federal and provincial governments, in coordination with private sector entities, shall
+establish demanufacturing facilities dedicated to the disassembly of decommissioned internal
+combustion engine (ICE) vehicles.</li>
+                    <li>• Components recovered through demanufacturing operations shall be processed and
+rerouted to certified recycling or reindustrialization facilities for reintegration into the EV
+production supply chain.</li>
+                    <li>• Existing ICE vehicle assembly plants located in Ontario shall be evaluated and prioritized
+for conversion into EV-related operations, including electric component assembly or vehicle
+disassembly centers.</li>
+                    <li>{"• A geographically consolidated EV Manufacturing and Recycling Corridor shall be developed within Ontario, modeled on the structure and governance of Quebec’s battery corridor."}</li>
+                    <li>• Hiring within the corridor shall prioritize workers residing in regions undergoing economic
+restructuring due to the decline of ICE manufacturing, notably in Windsor, Oshawa, and similar
+jurisdictions.</li>
+                    <li>• All levels of government involved in the redevelopment shall ensure sustained economic
+support and workforce reintegration measures for municipalities historically dependent on ICE
+vehicle production.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -210,17 +227,30 @@ export default function Component() {
               <Card>
                 <CardHeader>
                   <Recycle className="h-8 w-8 text-[#c31a1a]" />
-                  <CardTitle>Demanufacturing Initiative</CardTitle>
-                  <CardDescription>
-                    Creating new economic activities by recycling traditional vehicle parts for EV applications.
-                  </CardDescription>
+                  <CardTitle>Workforce Transition Oversight and Retention Incentives</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="text-sm text-slate-600 space-y-2">
-                    <li>• Parts compatibility analysis</li>
-                    <li>• Sustainable recycling processes</li>
-                    <li>• New job creation in green economy</li>
-                    <li>• Waste reduction strategies</li>
+                    <li>•  A national workforce transition monitoring system shall be established to assess and
+publicly report on employment trends, reskilling program outcomes, and evolving labor demands
+related to the EV transition.</li>
+                    <li>• Unifor and participating employers in the automotive sector shall jointly administer a
+centralized digital job board to facilitate the placement of reskilled workers in relevant positions
+nationwide.</li>
+                    <li>• Employers demonstrating proactive efforts to retain and retrain workers shall be eligible for
+federal incentives, including tax credits, transition grants, and preferential status in public EV
+procurement contracts.</li>
+                    <li>• Participating employers shall be required to prioritize the retraining of existing
+employees—particularly older and long-tenured workers—before seeking to fill positions with
+external applicants.</li>
+                    <li>• An annual national program of recognition and certification shall be implemented to honor
+                    employers that uphold exemplary standards in equitable workforce transition practices.</li>
+                    <li>• The preservation of factory-based intergenerational knowledge and the safeguarding of
+skilled trades expertise shall be identified as national objectives throughout the EV industrial
+transformation.</li>
+                    <li>• Unifor shall employ advocacy, strategic alliances, and public communication campaigns to
+compel compliance by multinational automotive manufacturers with Canadian labor standards
+and to enhance the public profile of those that adhere.</li>
                   </ul>
                 </CardContent>
               </Card>
