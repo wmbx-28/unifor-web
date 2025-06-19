@@ -60,9 +60,11 @@ export default function Component() {
                   <Button size="lg" className="bg-[#c31a1a] hover:bg-red-500">
                     Learn About Our Programs
                   </Button>
-                  <Button variant="outline" size="lg">
-                    Join Our Mission
-                  </Button>
+                  <Link href="#contact" passHref>
+                    <Button variant="outline" size="lg">
+                      Join Our Mission
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center justify-center">
